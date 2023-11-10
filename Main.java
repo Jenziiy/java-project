@@ -14,5 +14,12 @@ public class Main {
       }
       System.out.println();
     }
+    System.out.println();
+    for (int n[] : multiDimensionalArr) {
+      for (int m : n) {
+        System.out.print(m + " ");
+      }
+      System.out.println();
+    }
   };
 };
