@@ -5,11 +5,12 @@ public class MainCalc {
     int resAdd = obj.add(3, 4);
     int resSub = obj.sub(4, 3);
 
-    AdvCalc advObj = new AdvCalc();
+    VeryAdvCalc advObj = new VeryAdvCalc();
     int add = advObj.add(1, 2);
     int subtr = advObj.sub(1, 2);
     double divid = advObj.divide(1, 2);
+    double pow = advObj.power(2, 2);
 
-    System.out.println(add + " " + subtr + " " + divid);
+    System.out.println(pow + " " + subtr + " " + divid);
   }
 }
